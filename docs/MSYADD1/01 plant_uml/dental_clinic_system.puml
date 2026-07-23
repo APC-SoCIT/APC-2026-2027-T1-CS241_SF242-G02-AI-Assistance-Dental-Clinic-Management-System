@@ -1,0 +1,37 @@
+```puml
+@startuml Dental_Clinic_Use_Cases
+left to right direction
+skinparam packageStyle rectangle
+
+actor Patient
+actor Dentist
+actor Receptionist
+
+rectangle "Dental Clinic System" {
+    usecase "Book Appointment" as UC1
+    usecase "Cancel/Reschedule" as UC2
+    usecase "View Treatment Plan" as UC3
+    usecase "Record Clinical Notes" as UC4
+    usecase "Update Dental Chart" as UC5
+    usecase "Manage Schedules" as UC6
+    usecase "Process Payments" as UC7
+    usecase "Generate Invoices" as UC8
+}
+
+Patient --> UC1
+Patient --> UC2
+Patient --> UC3
+
+Receptionist --> UC1
+Receptionist --> UC2
+Receptionist --> UC6
+Receptionist --> UC7
+Receptionist --> UC8
+
+Dentist --> UC3
+Dentist --> UC4
+Dentist --> UC5
+Dentist --> UC6
+
+@enduml
+```

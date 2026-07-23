@@ -1,5 +1,5 @@
 ```puml
-@startuml Dental_Clinic_Use_Cases
+@startuml Dental_Clinic_Use_Cases  
 left to right direction
 skinparam packageStyle rectangle
 

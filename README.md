@@ -54,4 +54,3 @@ The system aims to replace traditional paper-based record management with an int
 - Prince Jabez Reyes
 - Joachim Emanuelle Tan
 - John Lourd Marcus L. De Leon
-- Manuel L. Calimlim Jr.

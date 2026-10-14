@@ -8,12 +8,12 @@ An AI-Assisted desktop application designed to help dental clinics digitize pati
 
 ## Tech Stack
 
-- **Frontend:** Electron
-- **Backend:** Node.js (Express)
-- **Database:** MySQL / PostgreSQL
-- **Artificial Intelligence:** Llama
-- **Cloud Platform:** Google Cloud
-- **Notifications:** SMTP Email
+- **Frontend:** React
+- **Backend:** Nest.js
+- **Database:** Supabase
+- **Artificial Intelligence:** External Model
+- **Cloud Storage:** Google Cloud
+- **Notifications:** SMTP
 
 ---
 
